@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>ZingSoft Demo</title>
+  <style>
+    * {
+      font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+      font-size: 12px;
+    }
+  </style>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://cdn.zingchart.com/zingchart.min.js"></script>
+</head>
+<body>
+  <div style="padding:10px">
+    Show from level <select id="minlevel">
+      <option value="0" selected>0</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+    </select> to level <select id="maxlevel">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4" selected>4</option>
+    </select>&nbsp;<button class="btn" id="btnrender">Render</button>
+  </div>
+  <div id="zc"></div>
+  <script src="index.js"></script>
+</body>
+</html>
